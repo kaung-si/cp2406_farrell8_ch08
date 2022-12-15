@@ -28,5 +28,6 @@ public class PassArray
       for(x = 0; x < arr.length; ++x)
          System.out.print(" " + arr[x] );
       System.out.println();
+
    }
 }

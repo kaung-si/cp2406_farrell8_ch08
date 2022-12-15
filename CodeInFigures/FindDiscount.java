@@ -11,12 +11,12 @@ public class FindDiscount
       int numOrdered;
       int sub = NUM_RANGES - 1;
       strNumOrdered = JOptionPane.showInputDialog(null,
-         "How many items are ordered?");
+              "How many items are ordered?");
       numOrdered = Integer.parseInt(strNumOrdered);
       while(sub >= 0 && numOrdered < discountRangeLimits[sub])
          --sub;
       customerDiscount = discountRates[sub];
       JOptionPane.showMessageDialog(null, "Discount rate for " +
-          numOrdered + " items is " + customerDiscount);
+              numOrdered + " items is " + customerDiscount);
    }
 }
